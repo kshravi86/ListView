@@ -97,28 +97,28 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 */
-    public void onGoogleCardsExampleClicked(final View view) {
-        Intent intent = new Intent(this, GoogleCardsActivity.class);
+    public void history(final View view) {
+        Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
         startActivity(intent);
     }
 
-    public void onGridViewExampleClicked(final View view) {
-        Intent intent = new Intent(this, GridViewActivity.class);
+    public void wisdom(final View view) {
+        Intent intent = new Intent(MainActivity.this, FirstActivity.class);
         startActivity(intent);
     }
 
     public void onAppearanceClicked(final View view) {
-        Intent intent = new Intent(this, AppearanceExamplesActivity.class);
+        Intent intent = new Intent(MainActivity.this, NinthActivity.class);
         startActivity(intent);
     }
 
     public void onItemManipulationClicked(final View view) {
-        Intent intent = new Intent(this, ItemManipulationsExamplesActivity.class);
+        Intent intent = new Intent(MainActivity.this, TenthActivity.class);
         startActivity(intent);
     }
 
     public void onSLHClicked(final View view) {
-        Intent intent = new Intent(this, StickyListHeadersActivity.class);
+        Intent intent = new Intent(MainActivity.this, FifteenthActivity.class);
         startActivity(intent);
     }
     /*

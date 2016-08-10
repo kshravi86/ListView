@@ -34,9 +34,9 @@ public class GridViewActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_googlecards);
 
-        ListView listView = (ListView) findViewById(R.id.activity_googlecards_listview);
-        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.activity_listview, CHEESES);
-     listView.setAdapter(adapter);
+//        ListView listView = (ListView) findViewById(R.id.activity_googlecards_listview);
+  //      ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.activity_listview, CHEESES);
+    // listView.setAdapter(adapter);
         //SwingBottomInAnimationAdapter swingBottomInAnimationAdapter = new SwingBottomInAnimationAdapter(new GridViewAdapter(this));
         //swingBottomInAnimationAdapter.setAbsListView(gridView);
 
