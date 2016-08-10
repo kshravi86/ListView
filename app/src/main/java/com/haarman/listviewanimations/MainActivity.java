@@ -1,18 +1,3 @@
-/*
- * Copyright 2014 Niek Haarman
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.haarman.listviewanimations;
 
 import android.annotation.SuppressLint;
@@ -45,22 +30,17 @@ import org.json.JSONObject;
 
 public class MainActivity extends Activity {
 
-    private static final String URL_GITHUB_IO = "http://nhaarman.github.io/ListViewAnimations?ref=app";
-
-    //private final ServiceConnection mServiceConn = new MyServiceConnection();
-    //private IInAppBillingService mService;
+ 
 
     @SuppressLint("InlinedApi")
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
-        //if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-          //  getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-        //}
+       
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        bindService(new Intent("com.android.vending.billing.InAppBillingService.BIND"), mServiceConn, Context.BIND_AUTO_CREATE);
+        //bindService(new Intent("com.android.vending.billing.InAppBillingService.BIND"), mServiceConn, Context.BIND_AUTO_CREATE);
     }
 /*
     @Override
@@ -71,7 +51,7 @@ public class MainActivity extends Activity {
 
         return super.onCreateOptionsMenu(menu);
     }
-/*
+
     @Override
     public boolean onOptionsItemSelected(final MenuItem item) {
         switch (item.getItemId()) {
@@ -96,33 +76,75 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-*/
+	*/
+
     public void history(final View view) {
-        Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
+        Intent intent = new Intent(this, FirstActivity.class);
         startActivity(intent);
     }
 
     public void wisdom(final View view) {
-        Intent intent = new Intent(MainActivity.this, FirstActivity.class);
+        Intent intent = new Intent(this, SeventeenthActivity.class);
         startActivity(intent);
     }
 
-    public void onAppearanceClicked(final View view) {
-        Intent intent = new Intent(MainActivity.this, NinthActivity.class);
+    public void tendulkar(final View view) {
+        Intent intent = new Intent(this, SixteenthActivity.class);
         startActivity(intent);
     }
 
-    public void onItemManipulationClicked(final View view) {
-        Intent intent = new Intent(MainActivity.this, TenthActivity.class);
+    public void finance(final View view) {
+        Intent intent = new Intent(this, SeventhActivity.class);
         startActivity(intent);
     }
 
-    public void onSLHClicked(final View view) {
-        Intent intent = new Intent(MainActivity.this, FifteenthActivity.class);
+    public void dharma(final View view) {
+        Intent intent = new Intent(this, FifthActivity.class);
         startActivity(intent);
     }
-    /*
+	
+	
+	public void reading(final View view) {
+        Intent intent = new Intent(this, FifteenthActivity.class);
+        startActivity(intent);
+    }
 
+    public void head(final View view) {
+        Intent intent = new Intent(this, EighthActivity.class);
+        startActivity(intent);
+    }
+
+    public void education(final View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
+    }
+
+    public void mahatma(final View view) {
+        Intent intent = new Intent(this, TwelthActivity.class);
+        startActivity(intent);
+    }
+	public void writing(final View view) {
+        Intent intent = new Intent(this, EighteenthActivity.class);
+        startActivity(intent);
+    }
+
+    public void middle(final View view) {
+        Intent intent = new Intent(this, FourteenthActivity.class);
+        startActivity(intent);
+    }
+	public void conflict(final View view) {
+        Intent intent = new Intent(this, FourthActivity.class);
+        startActivity(intent);
+    }
+
+    public void economy(final View view) {
+        Intent intent = new Intent(this, SixthActivity.class);
+        startActivity(intent);
+    }
+	
+	
+	
+/*
     @Override
     public void onDestroy() {
         super.onDestroy();
@@ -206,5 +228,5 @@ public class MainActivity extends Activity {
             }
         }
     }
-    */
+	*/
 }

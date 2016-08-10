@@ -109,7 +109,7 @@
                 android:layout_marginLeft="2dp"
                 android:layout_weight="1"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:onClick="onAppearanceClicked">
+                android:onClick="tendulkar">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -151,7 +151,7 @@
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:onClick="onGridViewExampleClicked">
+                android:onClick="finance">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -187,7 +187,7 @@
                 android:layout_weight="1"
                 android:background="@color/purple_transparent"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:onClick="onSLHClicked">
+                android:onClick="dharma">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:onClick="onGridViewExampleClicked">
+                android:onClick="reading">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -263,7 +263,7 @@
                 android:layout_weight="1"
                 android:background="@color/purple_transparent"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:onClick="onSLHClicked">
+                android:onClick="head">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -302,14 +302,14 @@
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:onClick="onGridViewExampleClicked">
+                android:onClick="middle">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right|bottom"
                     android:scaleType="center"
-                    android:src="@drawable/education3" />
+                    android:src="@drawable/middle" />
 
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -322,7 +322,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
                         android:fontFamily="sans-serif-condensed"
-                        android:text="Reimagine Education"
+                        android:text="The Mess in the Middle East"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
                 </FrameLayout>
@@ -338,14 +338,14 @@
                 android:layout_weight="1"
                 android:background="@color/purple_transparent"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:onClick="onSLHClicked">
+                android:onClick="writing">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right|bottom"
                     android:scaleType="center"
-                    android:src="@drawable/mahatma"/>
+                    android:src="@drawable/writing"/>
 
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -359,12 +359,92 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
                         android:fontFamily="sans-serif-condensed"
-                        android:text="Making of Mahatma"
+                        android:text="Writing Warriors"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
                 </FrameLayout>
             </FrameLayout>
         </LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="conflict">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:scaleType="center"
+                    android:src="@drawable/conflict" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green_transparent"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Ceaseless Conflicts"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+
+            </FrameLayout>
+
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@color/purple_transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="economy">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:scaleType="center"
+                    android:src="@drawable/economy"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/purple_transparent"
+                    android:padding="12dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Eclectic Economics"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+		
+		
+		
+		
 
         <View
             android:layout_width="match_parent"

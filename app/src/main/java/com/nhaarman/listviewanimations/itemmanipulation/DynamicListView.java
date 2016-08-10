@@ -355,7 +355,7 @@ public class DynamicListView extends ListView {
         if (mAnimateAdditionAdapter == null) {
             throw new IllegalStateException("Adapter should implement Insertable!");
         }
-        mAnimateAdditionAdapter.insert(index, items);
+       /// mAnimateAdditionAdapter.insert(index, items);
     }
 
     /**

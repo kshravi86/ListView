@@ -62,7 +62,7 @@
             android:label="@string/stickylistheaders" />
         <activity android:name=".MyListActivity"/>
         <activity android:name=".BaseActivity"/>
-
+		<activity android:name="com.haarman.listviewanimations.SecondActivity"></activity>
 
         <activity android:name="com.haarman.listviewanimations.ThirdActivity"></activity>
         <activity android:name="com.haarman.listviewanimations.FourthActivity"></activity>
@@ -252,7 +252,17 @@
         <activity android:name="com.haarman.listviewanimations.Seventeenth8"></activity>
         <activity android:name="com.haarman.listviewanimations.Seventeenth9"></activity>
 
+		<activity android:name="com.haarman.listviewanimations.Eighteenth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.Eighteenth9"></activity>
 
+		
     </application>
 
 </manifest>
