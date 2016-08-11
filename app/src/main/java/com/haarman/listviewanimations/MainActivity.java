@@ -19,7 +19,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import com.android.vending.billing.IInAppBillingService;
+
 import com.haarman.listviewanimations.appearance.AppearanceExamplesActivity;
 import com.haarman.listviewanimations.googlecards.GoogleCardsActivity;
 import com.haarman.listviewanimations.gridview.GridViewActivity;
@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 
  
 
-    @SuppressLint("InlinedApi")
+    
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
        
@@ -79,12 +79,12 @@ public class MainActivity extends Activity {
 	*/
 
     public void history(final View view) {
-        Intent intent = new Intent(this, FirstActivity.class);
+        Intent intent = new Intent(this, NoBoringActionBarActivity.class);
         startActivity(intent);
     }
 
     public void wisdom(final View view) {
-        Intent intent = new Intent(this, SeventeenthActivity.class);
+        Intent intent = new Intent(this, SeventeenthActivity18.class);
         startActivity(intent);
     }
 
@@ -99,13 +99,13 @@ public class MainActivity extends Activity {
     }
 
     public void dharma(final View view) {
-        Intent intent = new Intent(this, FifthActivity.class);
+        Intent intent = new Intent(this, FifthActivity18.class);
         startActivity(intent);
     }
 	
 	
 	public void reading(final View view) {
-        Intent intent = new Intent(this, FifteenthActivity.class);
+        Intent intent = new Intent(this, FifteenthActivity18.class);
         startActivity(intent);
     }
 
@@ -115,12 +115,12 @@ public class MainActivity extends Activity {
     }
 
     public void education(final View view) {
-        Intent intent = new Intent(this, SecondActivity.class);
+        Intent intent = new Intent(this, SecondActivity18.class);
         startActivity(intent);
     }
 
     public void mahatma(final View view) {
-        Intent intent = new Intent(this, TwelthActivity.class);
+        Intent intent = new Intent(this, TwelthActivity18.class);
         startActivity(intent);
     }
 	public void writing(final View view) {

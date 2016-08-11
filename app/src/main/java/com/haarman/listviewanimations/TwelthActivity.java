@@ -8,6 +8,7 @@ import android.view.*;
 public class TwelthActivity extends Activity
 {
 	
+
 	String[] CHEESES = {
 
 		"How did Mahatma Gandhi unite millions of people to fight for independence in a non-violent fashion?",

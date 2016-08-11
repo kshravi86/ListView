@@ -263,6 +263,26 @@
         <activity android:name="com.haarman.listviewanimations.Eighteenth9"></activity>
 
 		
+		<activity android:name="com.haarman.listviewanimations.NoBoringActionBarActivity"></activity>
+		
+		
+		<activity android:name="com.haarman.listviewanimations.NoBoringActionBarActivity9"></activity>
+
+		<activity android:name="com.haarman.listviewanimations.SecondActivity18"></activity>
+
+
+		<activity android:name="com.haarman.listviewanimations.SeventeenthActivity18"></activity>
+
+
+		<activity android:name="com.haarman.listviewanimations.TwelthActivity18"></activity>
+		
+		
+		<activity android:name="com.haarman.listviewanimations.FifteenthActivity18"></activity>
+		
+		<activity android:name="com.haarman.listviewanimations.FifthActivity18"></activity>
+		
+		
+		
     </application>
 
 </manifest>
