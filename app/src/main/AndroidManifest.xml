@@ -281,8 +281,25 @@
 		
 		<activity android:name="com.haarman.listviewanimations.FifthActivity18"></activity>
 		
+		<activity android:name="com.haarman.listviewanimations.SixteenthActivity18"></activity>
+		
+		<activity android:name="com.haarman.listviewanimations.EighthActivity18"></activity>
+		
+		<activity android:name="com.haarman.listviewanimations.SeventhActivity18"></activity>
+		
+
+		<activity android:name="com.haarman.listviewanimations.EighteenthActivity18"></activity>
+		
+		<activity android:name="com.haarman.listviewanimations.FourteenthActivity18"></activity>
+		
+		<activity android:name="com.haarman.listviewanimations.FourthActivity18"></activity>
+		
+
+		<activity android:name="com.haarman.listviewanimations.SixthActivity18"></activity>
+
 		
 		
     </application>
+	
 
 </manifest>

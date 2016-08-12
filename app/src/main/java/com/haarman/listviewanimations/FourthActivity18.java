@@ -25,27 +25,44 @@ import java.util.ArrayList;
 import android.widget.*;
 import android.content.*;
 
-public class FifteenthActivity18 extends Activity {
+public class FourthActivity18 extends Activity {
 
 
-	String[] CHEESES = {
+    String[] CHEESES = {
 
-		"How should I develop a habit of reading the newspaper?",
-		"Quit Reading Fast. Read Slow.",
-		"How to read 200+ books every year?",
-		"Is reading fiction required, if you are primarily in love with newspaper and informative articles on science, politics, culture and history?",
-		"I love reading, but that is limited to newspapers, Quora or some random articles on the Internet. I wish to start reading books--novels of different genres. Where and how should I start?",
-		"We have movies and the Internet where we can see or read whatever we like. Why should we read books in the digital age?",
-		"What are Balaji Viswanathan's favorite business books?",
-		"Which books does Balaji Viswanathan recommend about Indian political history for a reader who just started to follow politics?",
-		"What are some must-read books for a 22 year old Indian?",
-
-		/*"What books does Balaji Viswanathan tell 16-20 year olds to read?"
+		"What is India's relationship with Afghanistan?",
+		"Why did China invade India in 1962?",
+		"What exactly is the Arunachal Pradesh Conflict between India and China?",
+		"What is the complete history behind the disputes between India, Pakistan and China, over their conflicting national borders?",
+		"Why does India have a larger area than Pakistan?",
+		"Why did the partitioning of India cause violence?",
+		"How important is Bhutan to India?",
+		"What is Operation Blue Star?",
+		"What is the best political solution to Kashmir?",
+		/*
+		 "What are the benefits and drawbacks to India in letting Kashmir be an independent state/country?",
+		 "Why doesnt India utilise its powerful Army to neutralise the Naxalite threat and instead continue to use the police and paramilitary forces?",
+		 "Should the North Eastern states of India try to secede from India, and try to join China?",
+		 "Is spending tons of money on defense justified, when on the other side India is poor country?",
+		 "Who among Gandhi and Bhagat Singh was right in his approach towards the British rule in India?",
+		 "What's the history of the Islamic insurgency in Iraq? How did the unrest progress? Is momentum building?",
+		 "Why and how was the Muslim conquest so successful?",
+		 "What would be an outcome of Iran's nuclear strike on Riyadh?",
+		 "Why have the Islamic countries failed to develop even with resources like oil, whilst countries with no resources like Switzerland have flourished?",
+		 "Why are there so many problems in Africa?",
+		 "Why has every superpower tried to conquer Afghanistan, even though the country has nothing special like oil, coal, natural gas or valuable minerals?",
+		 "How was a smaller country like Japan able to dominate and/or oppress much of China for the last century?",
+		 "What did the Dalai Lama do to provoke the Chinese government?",
+		 "How many countries has China invaded in its history?",
+		 "Why do people continuously say that World War III will be triggered because of the lack of water?",
+		 "Why does the United States give so much foreign aid to Pakistan?",
+		 "How did Switzerland never participate in any world wars?",
+		 "Why does terrorism get so much more publicity and focus than other far more deadly problems?",
+		 "Why do the three deaths at the Boston Marathon Attack weigh so much more heavily than the thousands who died in America that same day?",
+		 "We seem to live in a very peaceful time in modern history, where the percentage of people killed in armed conflicts worldwide is at a historic low. What are the underlying causes for this phenomenon?"
 
 		 */
     };
-	
-
 
 	private static final String TAG = "NoBoringActionBarActivity";
     private int mActionBarTitleColor;
@@ -86,31 +103,31 @@ public class FifteenthActivity18 extends Activity {
 
 					switch( position )
 					{
-						case 1:  Intent newActivity = new Intent(FifteenthActivity18.this, Fifteenth1.class);
+						case 1:  Intent newActivity = new Intent(FourthActivity18.this, Fourth1.class);
 							startActivity(newActivity);
 							break;
-						case 2:  Intent newActivity2 = new Intent(FifteenthActivity18.this, Fifteenth2.class);
+						case 2:  Intent newActivity2 = new Intent(FourthActivity18.this, Fourth2.class);
 							startActivity(newActivity2);
 							break;
-						case 3:  Intent newActivity3 = new Intent(FifteenthActivity18.this, Fifteenth3.class);
+						case 3:  Intent newActivity3 = new Intent(FourthActivity18.this, Fourth3.class);
 							startActivity(newActivity3);
 							break;
-						case 4:Intent newActivity4 = new Intent(FifteenthActivity18.this, Fifteenth4.class);
+						case 4:Intent newActivity4 = new Intent(FourthActivity18.this, Fourth4.class);
 							startActivity(newActivity4);
 							break;
-						case 5:Intent newActivity5 = new Intent(FifteenthActivity18.this, Fifteenth5.class);
+						case 5:Intent newActivity5 = new Intent(FourthActivity18.this, Fourth5.class);
 							startActivity(newActivity5);
 							break;
-						case 6:Intent newActivity6 = new Intent(FifteenthActivity18.this, Fifteenth6.class);
+						case 6:Intent newActivity6 = new Intent(FourthActivity18.this, Fourth6.class);
 							startActivity(newActivity6);
 							break;
-						case 7:Intent newActivity7 = new Intent(FifteenthActivity18.this, Fifteenth7.class);
+						case 7:Intent newActivity7 = new Intent(FourthActivity18.this, Fourth7.class);
 							startActivity(newActivity7);
 							break;
-						case 8:Intent newActivity8 = new Intent(FifteenthActivity18.this, Fifteenth8.class);
+						case 8:Intent newActivity8 = new Intent(FourthActivity18.this, Fourth8.class);
 							startActivity(newActivity8);
 							break;
-						case 9:Intent newActivity9 = new Intent(FifteenthActivity18.this, Fifteenth9.class);
+						case 9:Intent newActivity9 = new Intent(FourthActivity18.this, Fourth9.class);
 							startActivity(newActivity9);
 							break;
 
@@ -122,7 +139,7 @@ public class FifteenthActivity18 extends Activity {
 
         mHeader = findViewById(R.id.header);
         mHeaderPicture = (KenBurnsView) findViewById(R.id.header_picture);
-        mHeaderPicture.setResourceIds(R.drawable.read, R.drawable.read3);
+        mHeaderPicture.setResourceIds(R.drawable.conflict, R.drawable.conflict3);
         mHeaderLogo = (ImageView) findViewById(R.id.header_logo);
 
         mActionBarTitleColor = getResources().getColor(R.color.actionbar_title_color);

@@ -89,12 +89,12 @@ public class MainActivity extends Activity {
     }
 
     public void tendulkar(final View view) {
-        Intent intent = new Intent(this, SixteenthActivity.class);
+        Intent intent = new Intent(this, SixteenthActivity18.class);
         startActivity(intent);
     }
 
     public void finance(final View view) {
-        Intent intent = new Intent(this, SeventhActivity.class);
+        Intent intent = new Intent(this, SeventhActivity18.class);
         startActivity(intent);
     }
 
@@ -110,7 +110,7 @@ public class MainActivity extends Activity {
     }
 
     public void head(final View view) {
-        Intent intent = new Intent(this, EighthActivity.class);
+        Intent intent = new Intent(this, EighthActivity18.class);
         startActivity(intent);
     }
 
@@ -124,21 +124,21 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 	public void writing(final View view) {
-        Intent intent = new Intent(this, EighteenthActivity.class);
+        Intent intent = new Intent(this, EighteenthActivity18.class);
         startActivity(intent);
     }
 
     public void middle(final View view) {
-        Intent intent = new Intent(this, FourteenthActivity.class);
+        Intent intent = new Intent(this, FourteenthActivity18.class);
         startActivity(intent);
     }
 	public void conflict(final View view) {
-        Intent intent = new Intent(this, FourthActivity.class);
+        Intent intent = new Intent(this, FourthActivity18.class);
         startActivity(intent);
     }
 
     public void economy(final View view) {
-        Intent intent = new Intent(this, SixthActivity.class);
+        Intent intent = new Intent(this, SixthActivity18.class);
         startActivity(intent);
     }
 	

@@ -25,27 +25,28 @@ import java.util.ArrayList;
 import android.widget.*;
 import android.content.*;
 
-public class FifteenthActivity18 extends Activity {
+public class EighthActivity18 extends Activity {
+
 
 
 	String[] CHEESES = {
+		"How can one summarize World War II in 10 sentences or less?",
+		"Why is World War II so much more famous than World War I?",
+		"100 Years Ago: History Rhymes & Repeats",
+		"Why has every person who has dreamt of conquering Europe faltered in Russia?",
+		"How do you explain Hitler's rise to power given his unusual background?",
+		"Did Hitler know Subhas Chandra Bose was married to a White Austrian woman?",
+		"How did Switzerland never participate in any world wars?",
+		"Would the Allies have defeated the Axis in WWII without the intervention of the United States?",
+		"Which country played the greatest role in winning WW2, Britain, USSR or USA?",
 
-		"How should I develop a habit of reading the newspaper?",
-		"Quit Reading Fast. Read Slow.",
-		"How to read 200+ books every year?",
-		"Is reading fiction required, if you are primarily in love with newspaper and informative articles on science, politics, culture and history?",
-		"I love reading, but that is limited to newspapers, Quora or some random articles on the Internet. I wish to start reading books--novels of different genres. Where and how should I start?",
-		"We have movies and the Internet where we can see or read whatever we like. Why should we read books in the digital age?",
-		"What are Balaji Viswanathan's favorite business books?",
-		"Which books does Balaji Viswanathan recommend about Indian political history for a reader who just started to follow politics?",
-		"What are some must-read books for a 22 year old Indian?",
 
-		/*"What books does Balaji Viswanathan tell 16-20 year olds to read?"
+		/* "How did the war in Europe shape Japan's strategy in the Pacific?",
+		 "Were the atomic bombings of Nagasaki and Hiroshima justifiable? Were these bombings necessary? Why or why not?",
+		 "Were the Japanese bombed with nukes partially because they were Asian?"
 
 		 */
     };
-	
-
 
 	private static final String TAG = "NoBoringActionBarActivity";
     private int mActionBarTitleColor;
@@ -86,31 +87,31 @@ public class FifteenthActivity18 extends Activity {
 
 					switch( position )
 					{
-						case 1:  Intent newActivity = new Intent(FifteenthActivity18.this, Fifteenth1.class);
+						case 1:  Intent newActivity = new Intent(EighthActivity18.this, Eighth1.class);
 							startActivity(newActivity);
 							break;
-						case 2:  Intent newActivity2 = new Intent(FifteenthActivity18.this, Fifteenth2.class);
+						case 2:  Intent newActivity2 = new Intent(EighthActivity18.this, Eighth2.class);
 							startActivity(newActivity2);
 							break;
-						case 3:  Intent newActivity3 = new Intent(FifteenthActivity18.this, Fifteenth3.class);
+						case 3:  Intent newActivity3 = new Intent(EighthActivity18.this, Eighth3.class);
 							startActivity(newActivity3);
 							break;
-						case 4:Intent newActivity4 = new Intent(FifteenthActivity18.this, Fifteenth4.class);
+						case 4:Intent newActivity4 = new Intent(EighthActivity18.this, Eighth4.class);
 							startActivity(newActivity4);
 							break;
-						case 5:Intent newActivity5 = new Intent(FifteenthActivity18.this, Fifteenth5.class);
+						case 5:Intent newActivity5 = new Intent(EighthActivity18.this, Eighth5.class);
 							startActivity(newActivity5);
 							break;
-						case 6:Intent newActivity6 = new Intent(FifteenthActivity18.this, Fifteenth6.class);
+						case 6:Intent newActivity6 = new Intent(EighthActivity18.this, Eighth6.class);
 							startActivity(newActivity6);
 							break;
-						case 7:Intent newActivity7 = new Intent(FifteenthActivity18.this, Fifteenth7.class);
+						case 7:Intent newActivity7 = new Intent(EighthActivity18.this, Eighth7.class);
 							startActivity(newActivity7);
 							break;
-						case 8:Intent newActivity8 = new Intent(FifteenthActivity18.this, Fifteenth8.class);
+						case 8:Intent newActivity8 = new Intent(EighthActivity18.this, Eighth8.class);
 							startActivity(newActivity8);
 							break;
-						case 9:Intent newActivity9 = new Intent(FifteenthActivity18.this, Fifteenth9.class);
+						case 9:Intent newActivity9 = new Intent(EighthActivity18.this, Eighth9.class);
 							startActivity(newActivity9);
 							break;
 
@@ -122,7 +123,7 @@ public class FifteenthActivity18 extends Activity {
 
         mHeader = findViewById(R.id.header);
         mHeaderPicture = (KenBurnsView) findViewById(R.id.header_picture);
-        mHeaderPicture.setResourceIds(R.drawable.read, R.drawable.read3);
+        mHeaderPicture.setResourceIds(R.drawable.worldwars, R.drawable.head3);
         mHeaderLogo = (ImageView) findViewById(R.id.header_logo);
 
         mActionBarTitleColor = getResources().getColor(R.color.actionbar_title_color);

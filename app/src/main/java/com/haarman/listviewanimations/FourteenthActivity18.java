@@ -25,27 +25,31 @@ import java.util.ArrayList;
 import android.widget.*;
 import android.content.*;
 
-public class FifteenthActivity18 extends Activity {
+public class FourteenthActivity18 extends Activity {
 
 
-	String[] CHEESES = {
 
-		"How should I develop a habit of reading the newspaper?",
-		"Quit Reading Fast. Read Slow.",
-		"How to read 200+ books every year?",
-		"Is reading fiction required, if you are primarily in love with newspaper and informative articles on science, politics, culture and history?",
-		"I love reading, but that is limited to newspapers, Quora or some random articles on the Internet. I wish to start reading books--novels of different genres. Where and how should I start?",
-		"We have movies and the Internet where we can see or read whatever we like. Why should we read books in the digital age?",
-		"What are Balaji Viswanathan's favorite business books?",
-		"Which books does Balaji Viswanathan recommend about Indian political history for a reader who just started to follow politics?",
-		"What are some must-read books for a 22 year old Indian?",
+    String[] CHEESES = {
 
-		/*"What books does Balaji Viswanathan tell 16-20 year olds to read?"
 
+		"How appropriate is the geographic term Middle East",
+		"Is another 2014 US intervention in Iraq good or bad?",
+		"What is the Israel-Gaza conflict?",
+		"What is the story of Jews?",
+		"How did Israel become so powerful?",
+		"Why does the US provide so much foreign aid (roughly $2.5 billion pl0er year) to Israel?",
+		"Why do a majority of Indians support Israel?",
+		"How could Iraq, widely considered as the cradle of civilization, come to this present state of crisis?",
+		"What's the history of the Islamic insurgency in Iraq? How did the unrest progress? Is momentum building?",
+
+		/* "Why do cars cost more than computers?",
+		 "What can be the pricing strategy of Head and Shoulder Shampoo for pricing INR 3 for 7.5 ml sachet (implies 80mL for INR 32) while pricing the 80mL bottle of same for INR 79?",
+		 "How is the world price of oil determined?",
+		 "Why do soft drink makers sell them at such exorbitant prices in the market?",
+		 "Why are grapes so expensive when raisins are so cheap?",
+		 "Why are disposable razor blades so expensive?"
 		 */
     };
-	
-
 
 	private static final String TAG = "NoBoringActionBarActivity";
     private int mActionBarTitleColor;
@@ -86,31 +90,31 @@ public class FifteenthActivity18 extends Activity {
 
 					switch( position )
 					{
-						case 1:  Intent newActivity = new Intent(FifteenthActivity18.this, Fifteenth1.class);
+						case 1:  Intent newActivity = new Intent(FourteenthActivity18.this, Fourteenth1.class);
 							startActivity(newActivity);
 							break;
-						case 2:  Intent newActivity2 = new Intent(FifteenthActivity18.this, Fifteenth2.class);
+						case 2:  Intent newActivity2 = new Intent(FourteenthActivity18.this, Fourteenth2.class);
 							startActivity(newActivity2);
 							break;
-						case 3:  Intent newActivity3 = new Intent(FifteenthActivity18.this, Fifteenth3.class);
+						case 3:  Intent newActivity3 = new Intent(FourteenthActivity18.this, Fourteenth3.class);
 							startActivity(newActivity3);
 							break;
-						case 4:Intent newActivity4 = new Intent(FifteenthActivity18.this, Fifteenth4.class);
+						case 4:Intent newActivity4 = new Intent(FourteenthActivity18.this, Fourteenth4.class);
 							startActivity(newActivity4);
 							break;
-						case 5:Intent newActivity5 = new Intent(FifteenthActivity18.this, Fifteenth5.class);
+						case 5:Intent newActivity5 = new Intent(FourteenthActivity18.this, Fourteenth5.class);
 							startActivity(newActivity5);
 							break;
-						case 6:Intent newActivity6 = new Intent(FifteenthActivity18.this, Fifteenth6.class);
+						case 6:Intent newActivity6 = new Intent(FourteenthActivity18.this, Fourteenth6.class);
 							startActivity(newActivity6);
 							break;
-						case 7:Intent newActivity7 = new Intent(FifteenthActivity18.this, Fifteenth7.class);
+						case 7:Intent newActivity7 = new Intent(FourteenthActivity18.this, Fourteenth7.class);
 							startActivity(newActivity7);
 							break;
-						case 8:Intent newActivity8 = new Intent(FifteenthActivity18.this, Fifteenth8.class);
+						case 8:Intent newActivity8 = new Intent(FourteenthActivity18.this, Fourteenth8.class);
 							startActivity(newActivity8);
 							break;
-						case 9:Intent newActivity9 = new Intent(FifteenthActivity18.this, Fifteenth9.class);
+						case 9:Intent newActivity9 = new Intent(FourteenthActivity18.this, Fourteenth9.class);
 							startActivity(newActivity9);
 							break;
 
@@ -122,7 +126,7 @@ public class FifteenthActivity18 extends Activity {
 
         mHeader = findViewById(R.id.header);
         mHeaderPicture = (KenBurnsView) findViewById(R.id.header_picture);
-        mHeaderPicture.setResourceIds(R.drawable.read, R.drawable.read3);
+        mHeaderPicture.setResourceIds(R.drawable.middle, R.drawable.middle3);
         mHeaderLogo = (ImageView) findViewById(R.id.header_logo);
 
         mActionBarTitleColor = getResources().getColor(R.color.actionbar_title_color);

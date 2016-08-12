@@ -22,7 +22,7 @@ public class FourteenthActivity extends Activity {
 		"What is the Israel-Gaza conflict?",
 		"What is the story of Jews?",
 		"How did Israel become so powerful?",
-		"Why does the US provide so much foreign aid (roughly $2.5 billion per year) to Israel?",
+		"Why does the US provide so much foreign aid (roughly $2.5 billion pl0er year) to Israel?",
 		"Why do a majority of Indians support Israel?",
 		"How could Iraq, widely considered as the cradle of civilization, come to this present state of crisis?",
 		"What's the history of the Islamic insurgency in Iraq? How did the unrest progress? Is momentum building?",
