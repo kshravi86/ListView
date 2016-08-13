@@ -13,7 +13,7 @@
         />
 
 
-    <com.haarman.listviewanimations.samples.PullToRefreshListView
+    <com.balaji.aakash.samples.PullToRefreshListView
         android:id="@+id/pull_refresh_list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
